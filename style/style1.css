@@ -1,0 +1,27 @@
+table {
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+th,
+td {
+    border: 2px solid rgba(224, 218, 218, 0.404);
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+th{
+    background-color: rgba(0, 128, 0, 0.564);
+}
+tr:hover{
+    background-color: rgba(125, 124, 124, 0.092);
+}
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.06);
+}
